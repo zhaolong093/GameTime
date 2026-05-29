@@ -75,7 +75,7 @@ export const MOCK_CLUES: Record<number, Clue> = {
               Together, they reveal the path upward.`,
     location_hint: `DB-L6-6.3-P-CB21. The name is a clue, but not the only one.
                    VAV-CB02-06-14`,
-    flavor_text: "// 404 — the library breathes",
+    flavor_text: "// combine 2 key together to get the item u need to unlock the future clue!!",
     media_type: "text",
     passcode: "4682"
   },
@@ -179,7 +179,7 @@ export const MOCK_CLUES: Record<number, Clue> = {
     location_hint: "1 IMP, 1 Scarlet Women, If you solve it, I will give u the QRCODE to unlock the hidden clue!!",
     flavor_text: "// COME BACK TO THE SPACE!! I told u this game is about memory. Not just finding clues, but remembering them.",
     media_type: "text",
-    passcode: "WHOWASTHEIMP?"
+    passcode: "WHOWASTHEIMP"
   },
   10: {
     id: 10,
