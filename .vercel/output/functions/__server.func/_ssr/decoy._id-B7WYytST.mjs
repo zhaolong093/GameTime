@@ -1,6 +1,6 @@
 import { r as reactExports, j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { P as PageWrapper, G as GlitchText, N as NeonButton } from "./NeonButton-CfP08izI.mjs";
-import { a as Route$1 } from "./router-B6xdZ1p-.mjs";
+import { a as Route$1 } from "./router-XX7qS63R.mjs";
 import "../_libs/clsx.mjs";
 import "../_libs/tailwind-merge.mjs";
 import "../_libs/tanstack__query-core.mjs";

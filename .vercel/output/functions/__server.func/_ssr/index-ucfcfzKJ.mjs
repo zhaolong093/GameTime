@@ -1,7 +1,7 @@
 import { r as reactExports, j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { u as useNavigate } from "../_libs/tanstack__react-router.mjs";
 import { P as PageWrapper, G as GlitchText, N as NeonButton } from "./NeonButton-CfP08izI.mjs";
-import { d as getGameStatus, a as TypewriterText, h as resetSession, s as startSessionIfNeeded } from "./api-BSKyTLK_.mjs";
+import { d as getGameStatus, a as TypewriterText, h as resetSession, s as startSessionIfNeeded } from "./api-ClMF9MBt.mjs";
 import "../_libs/tanstack__router-core.mjs";
 import "../_libs/tanstack__history.mjs";
 import "../_libs/cookie-es.mjs";

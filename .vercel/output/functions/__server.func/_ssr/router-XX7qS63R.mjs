@@ -16,7 +16,7 @@ import "crypto";
 import "async_hooks";
 import "stream";
 import "../_libs/isbot.mjs";
-const appCss = "/assets/styles-R3Ral-rM.css";
+const appCss = "/assets/styles-ssk5USj1.css";
 function NotFoundComponent() {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex min-h-screen items-center justify-center bg-background px-4", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-md text-center", children: [
     /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "text-7xl font-bold text-foreground", children: "404" }),
@@ -102,23 +102,23 @@ function RootComponent() {
   const { queryClient } = Route$5.useRouteContext();
   return /* @__PURE__ */ jsxRuntimeExports.jsx(QueryClientProvider, { client: queryClient, children: /* @__PURE__ */ jsxRuntimeExports.jsx(Outlet, {}) });
 }
-const $$splitComponentImporter$4 = () => import("./final-9OTu3JgX.mjs");
+const $$splitComponentImporter$4 = () => import("./final-BeCaWyr6.mjs");
 const Route$4 = createFileRoute("/final")({
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./index-D1EQCtFf.mjs");
+const $$splitComponentImporter$3 = () => import("./index-ucfcfzKJ.mjs");
 const Route$3 = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
-const $$splitComponentImporter$2 = () => import("./secret._code-CyhBmyv7.mjs");
+const $$splitComponentImporter$2 = () => import("./secret._code-D9TFcrrS.mjs");
 const Route$2 = createFileRoute("/secret/$code")({
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./decoy._id-BejrGtdd.mjs");
+const $$splitComponentImporter$1 = () => import("./decoy._id-B7WYytST.mjs");
 const Route$1 = createFileRoute("/decoy/$id")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./clue._id-CsWo0tQZ.mjs");
+const $$splitComponentImporter = () => import("./clue._id-BeNYYPEF.mjs");
 const searchSchema = objectType({});
 const Route = createFileRoute("/clue/$id")({
   component: lazyRouteComponent($$splitComponentImporter, "component"),

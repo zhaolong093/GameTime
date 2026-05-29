@@ -2,7 +2,7 @@ import { r as reactExports, j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { c as confetti } from "../_libs/canvas-confetti.mjs";
 import { P as PageWrapper, G as GlitchText, N as NeonButton } from "./NeonButton-CfP08izI.mjs";
-import { b as getFinale, a as TypewriterText, h as resetSession } from "./api-BSKyTLK_.mjs";
+import { b as getFinale, a as TypewriterText, h as resetSession } from "./api-ClMF9MBt.mjs";
 import "../_libs/tanstack__router-core.mjs";
 import "../_libs/tanstack__history.mjs";
 import "../_libs/cookie-es.mjs";

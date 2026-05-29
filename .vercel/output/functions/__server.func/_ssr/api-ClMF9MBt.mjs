@@ -45,36 +45,26 @@ const MOCK_CLUES = {
   1: {
     id: 1,
     title: "GO TOUCH GRASS",
-    riddle: "Giants stand where silence grows, while circles rest where no rain flows. Follow the path the branches keep, but do not trust what stands the deepest. Between the climb and shaded ground,the hidden signal waits unbound.",
+    riddle: `The path is drawn by three symbols:
+        One grows.
+        One shelters.
+        One ascends.
+
+        Together they point the way,
+        yet none hold the answer.
+
+        When root, shade, and stone align,
+        seek not what rises above you,
+        but what remains below those who stop to rest.
+      `,
     location_hint: "It's so easy, u guys dun need a hint for this one :P",
     flavor_text: "// dun give a fk about this clue, GOOONNN LUCK!! ",
     media_type: "image",
     media_url: "/images/clue-1-grass-layout.svg",
-    passcode: "REMISTHEIMP"
+    passcode: "COFFEExCROISSANT"
   },
   2: {
     id: 2,
-    title: "yrerbiL",
-    riddle: `The tower curves yet never breaks,
-              guarding thoughts no silence shakes.
-              Among the shelves where systems sleep,
-              two fractured marks are hidden deep.
-
-              One rests beside forgotten magic,
-              where ancient knowledge turns cryptic.
-              The other waits where coded minds
-              stack their worlds in ordered lines.
-
-              Alone, they mean almost nothing.
-              Together, they reveal the path upward.`,
-    location_hint: `DB-L6-6.3-P-CB21. The name is a clue, but not the only one.
-                   VAV-CB02-06-14`,
-    flavor_text: "// 404 — the library breathes",
-    media_type: "text",
-    passcode: "LIBRERY"
-  },
-  3: {
-    id: 3,
     title: "THE FORGOTTEN VALLEY",
     riddle: `Between two giants sleeps a wound unseen,
       where light falls thin and echoes intervene.
@@ -97,7 +87,28 @@ const MOCK_CLUES = {
                     Some places exist only between them..`,
     flavor_text: "// observed: yes — flagged: no",
     media_type: "text",
-    passcode: "QUIET"
+    passcode: "SILENCETIME"
+  },
+  3: {
+    id: 3,
+    title: "yrerbiL",
+    riddle: `The tower curves yet never breaks,
+              guarding thoughts no silence shakes.
+              Among the shelves where systems sleep,
+              two fractured marks are hidden deep.
+
+              One rests beside forgotten magic,
+              where ancient knowledge turns cryptic.
+              The other waits where coded minds
+              stack their worlds in ordered lines.
+
+              Alone, they mean almost nothing.
+              Together, they reveal the path upward.`,
+    location_hint: `DB-L6-6.3-P-CB21. The name is a clue, but not the only one.
+                   VAV-CB02-06-14`,
+    flavor_text: "// 404 — the library breathes",
+    media_type: "text",
+    passcode: "4682"
   },
   4: {
     id: 4,
@@ -113,66 +124,96 @@ const MOCK_CLUES = {
     location_hint: `Blame this on DUY, He's know what he's doing. B1`,
     flavor_text: "// Macdonald's, but not really",
     media_type: "text",
-    passcode: "SNACK"
+    passcode: "+8P"
   },
   5: {
     id: 5,
-    title: "WHERE THE BUS SLEEPS",
-    riddle: "An empty bench facing the wrong direction. Underneath, taped to the wood, a folded square.",
-    location_hint: "Wait for the silence between arrivals.",
+    title: "THE GRAVEYARD OF JOURNEYS",
+    riddle: `
+    Some arrive with footsteps alone,
+    others leave their journeys chained.
+
+    Two circles carry silent stories,
+    waiting patiently between departures.
+    They do not run, yet they travel far.
+
+    They do not rest, yet they stand still.
+    Seek the place where motion is stored,
+    and where forgotten journeys wait for their riders.`,
+    location_hint: "COUNT TO 10??",
     flavor_text: "// timetable corrupted",
     media_type: "text",
-    passcode: "BUS"
+    passcode: "UBERTIME"
   },
   6: {
     id: 6,
-    title: "ROOM OF ECHOES",
-    riddle: "Stand in the middle. Speak a single word. The walls will answer with another.",
-    location_hint: "Acoustics building. Studio 2. The door is rarely closed.",
-    flavor_text: "// resonance: 432 Hz",
+    title: "THE MAZE RUNNER",
+    riddle: `
+    The maze rewards those who climb,
+    and punishes those who descend too soon.
+
+    Many will seek the middle of the tower,
+    believing truth prefers the light.
+
+    Four walls above, the path appears clear.`,
+    location_hint: "USE STAIRS OR ELEVATOR ONLY!! NO LIFT!! NO HIGHER THAN 5TH FLOOR!!",
+    flavor_text: "// 500 — signal lost in transmission",
     media_type: "text",
-    passcode: "ECHO"
+    passcode: "CHIPPENDALE"
   },
   7: {
     id: 7,
-    title: "GARDEN OF FORGOTTEN NAMES",
-    riddle: "Find the bench with no plaque. That is the one to read.",
-    location_hint: "Bring nothing. Leave nothing. The grass remembers your weight.",
-    flavor_text: "// botanical archive: redacted",
+    title: "COMEBACK WAS REAL!!!!",
+    riddle: `
+    The game draws every eye forward.
+    To the court.
+    To the hoop.
+    To the place where victories are won.
+
+    But not every prize waits at the destination.
+    Some truths reveal themselves only to those
+    who turn back.
+
+    When the final whistle fades,
+    leave the arena behind.
+    Between each rise and fall,
+    a narrow space watches silently.
+
+    The next signal waits
+    where the court can still be seen,
+    but the game has already ended.
+    `,
+    location_hint: "Ask who watch last Wednesday match? They know where to go.",
+    flavor_text: "// I was a good game tho, ngl",
     media_type: "text",
-    passcode: "GARDEN"
+    passcode: "22-20"
   },
   8: {
     id: 8,
-    title: "THE LONG HALL",
-    riddle: "Count the doors. Open the one that wasn't there yesterday.",
-    location_hint: "Trust the draft, not the signs.",
-    flavor_text: "// architectural anomaly detected",
+    title: "1000 YEARS LATER~~",
+    riddle: `
+    Seven worlds stand before you.
+    Four remember the truth.
+    Three remember nothing.
+    `,
+    location_hint: "Revel later :)) But it's contain the passcode to unlock this clue!!",
+    flavor_text: "// In the Wellbeing Brainrot Zone",
     media_type: "text",
-    passcode: "LONG"
+    passcode: "1360"
   },
   9: {
     id: 9,
-    title: "STAIRS WITHOUT NUMBERS",
-    riddle: "Descend until the air grows colder than your hands. Stop at the landing that hums.",
-    location_hint: "Maintenance level. You shouldn't be here. That's the point.",
-    flavor_text: "// breach: tolerated",
-    media_type: "text",
-    passcode: "STAIRS"
-  },
-  10: {
-    id: 10,
     title: "THERE'S AN IMPOSTER AMONG U!",
     riddle: `Every 10 mintues, one of U will die and cannot use their ghost vote,
         Pick the right one to get to the final clues
         Information already provided at the beginning and during the HUNT!!`,
-    location_hint: "1 IMP, 1 Scarlet Women",
-    flavor_text: "// COME BACK TO THE SPACE!! I told u this game is about memory. Not just finding clues, but remembering them. ",
+    location_hint: "1 IMP, 1 Scarlet Women, If you solve it, I will give u the QRCODE to unlock the hidden clue!!",
+    flavor_text: "// COME BACK TO THE SPACE!! I told u this game is about memory. Not just finding clues, but remembering them.",
     media_type: "text",
-    passcode: "SIGNAL"
+    passcode: "WHOWASTHEIMP?"
   },
-  11: {
-    id: 11,
+  10: {
+    id: 10,
     title: "ONE PIECE",
     riddle: `10 clues, only 4 clues are real that unlock this clue,
 
@@ -187,7 +228,7 @@ const MOCK_CLUES = {
 const MOCK_FINALE = {
   ending_title: "YOU CRACKED IT!!",
   ending_message: "You were never lost. You were always being guided here. The signal was you all along.",
-  secret_lore: "Now let's go to broadway bar and have a drink together!! IT'S FRIDAY NIGHT!!",
+  secret_lore: "Now let's go to broadway bar and have a drink together!! IT'S FRIDAY NIGHT BABY!!",
   stats: {
     clues_completed: 10,
     hints_used: 0,
@@ -375,6 +416,7 @@ function readLocalStats() {
   };
 }
 export {
+  MOCK_CLUES as M,
   TOTAL_CLUES as T,
   TypewriterText as a,
   getFinale as b,
